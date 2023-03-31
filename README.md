@@ -1,2 +1,5 @@
 # Library-Management
-Mini Project using Oracle 11g and JavaFX for frontend
+Mini Project using _Oracle 11g_ and _JavaFX_ for frontend
+# Member
+# Book
+# Publisher
