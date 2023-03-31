@@ -1,6 +1,6 @@
 create table book (
 	id INT PRIMARY KEY,
-	book_name VARCHAR(22) NOT NULL,
+	book_name VARCHAR(24) NOT NULL,
 	isbn VARCHAR(14) NOT NULL,
 	total_copies INT,
 	price INT NOT NULL
