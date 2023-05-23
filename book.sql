@@ -4,6 +4,8 @@ create table book (
 	isbn VARCHAR(14) NOT NULL,
 	total_copies INT,
 	price INT NOT NULL,
+	Author_name VARCHAR(24) NOT NULL,
+	Pages INT NOT NULL,
 	issue_date DATE
 );
 insert into book (id, book_name, isbn, total_copies, price) values (1, 'Oliver Twist', '043143045-4', 18, 1925);
