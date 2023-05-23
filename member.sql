@@ -2,8 +2,8 @@ create table member (
 	member_id INT PRIMARY KEY,
 	first_name VARCHAR(15) NOT NULL,
 	last_name VARCHAR(15) NOT NULL,
-	email VARCHAR(20) NOT NULL,
-        password VARCHAR(10) NOT NULL,
+	email VARCHAR(25) NOT NULL,
+        password VARCHAR(15) NOT NULL,
 	book_issue_date DATE,
 	book_id INT,
 	FOREIGN KEY (book_id) REFERENCES book (id)
