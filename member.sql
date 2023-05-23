@@ -6,6 +6,7 @@ create table member (
         password VARCHAR(10) NOT NULL,
 	issue_date DATE,
 	book_id INT,
+	FOREIGN KEY (issue_date) REFERENCES book (issue_date),
 	FOREIGN KEY (book_id) REFERENCES book (id)
 );
 insert into member (member_id, first_name, last_name, issue_date) values (1, 'Salome', 'Cragoe', '26-Dec-22');
