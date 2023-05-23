@@ -3,7 +3,8 @@ create table book (
 	book_name VARCHAR(24) NOT NULL,
 	isbn VARCHAR(14) NOT NULL,
 	total_copies INT,
-	price INT NOT NULL
+	price INT NOT NULL,
+	issue_date DATE
 );
 insert into book (id, book_name, isbn, total_copies, price) values (1, 'Oliver Twist', '043143045-4', 18, 1925);
 insert into book (id, book_name, isbn, total_copies, price) values (2, 'Litle Children', '925708980-0', 8, 715);
